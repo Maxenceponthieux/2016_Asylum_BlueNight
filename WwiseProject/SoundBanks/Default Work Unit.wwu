@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{13BC8737-A228-4E79-A043-785863D8E17D}" SchemaVersion="72">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{13BC8737-A228-4E79-A043-785863D8E17D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AsylumJam2016Bank" ID="{1C6E1863-BAA2-40B5-85AD-CBE1DFEFED2E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="AsylumJam2016Events" ID="{9DECA168-DCA0-43D7-B162-C5111CAFF7FF}" WorkUnitID="{9DECA168-DCA0-43D7-B162-C5111CAFF7FF}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
