@@ -14,6 +14,6 @@ public class debugnavmesh : MonoBehaviour {
     }
     void Update()
     {
-        GetComponent<NavMeshAgent>().destination = player.transform.position;
+        GetComponent<UnityEngine.AI.NavMeshAgent>().destination = player.transform.position;
     }
 }

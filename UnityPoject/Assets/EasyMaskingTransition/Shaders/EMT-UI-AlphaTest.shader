@@ -1,4 +1,6 @@
-﻿Shader "Easy Masking Transition/Unlit/Transparent Tint"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Easy Masking Transition/Unlit/Transparent Tint"
 {
 	Properties
 	{
@@ -54,7 +56,7 @@
 			v2f vert (appdata_t IN)
 			{
 				v2f OUT;
-				OUT.vertex = mul(UNITY_MATRIX_MVP, IN.vertex);
+				OUT.vertex = UnityObjectToClipPos(IN.vertex);
 				OUT.texcoord = IN.texcoord;
 				OUT.color = IN.color * _Color;
 				return OUT;
@@ -63,10 +65,8 @@
 			fixed4 frag (v2f IN) : SV_Target
 			{
 				fixed4 col = tex2D(_Gradation, IN.texcoord) -0.01;
-				if(_Invert == 0) col = 1 - col;
-				fixed4 tex = tex2D(_MainTex, IN.texcoord) * IN.color;
-				clip(_Cutoff - col.a);
-				return tex;
+				clip(_Cutoff - col.r);
+				return _Color;
 			}
 			
 			ENDCG

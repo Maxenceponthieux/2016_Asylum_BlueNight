@@ -9,9 +9,6 @@ public class RoomBehaviour : MonoBehaviour
 	public WwiseManager.EventsEnum switchInstru;
 	public WwiseManager.EventsEnum rtpcStep;
 
-    /*[Range(0,100)]
-    public float rtpcValue;*/
-
     void Start()
     {
         if (BeginRoom == false)
@@ -19,7 +16,6 @@ public class RoomBehaviour : MonoBehaviour
         else
             Activate();
     }
-
 
     void Activate()
     {

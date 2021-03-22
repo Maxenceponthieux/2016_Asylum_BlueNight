@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6F6C6A5-6452-43EC-9612-361FED6BD3A5}" SchemaVersion="72">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B6F6C6A5-6452-43EC-9612-361FED6BD3A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Monster" ID="{54B15A9A-E989-449A-A520-EEBE05CBC381}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambiances" ID="{8AE55715-7A48-4C7B-8D65-A308BA07C8AE}" PersistMode="Reference"/>
+				<WorkUnit Name="Girl" ID="{5966839F-03E8-48DA-B7C1-F151D8F41C48}" PersistMode="Reference"/>
+				<WorkUnit Name="Sfx" ID="{6A3F2732-63CD-447E-B2A7-464EC37520D1}" PersistMode="Reference"/>
+				<WorkUnit Name="Ukulele" ID="{62E88843-7BEC-4692-A773-59AB3DEE5C67}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

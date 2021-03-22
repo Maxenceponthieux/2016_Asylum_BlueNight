@@ -60,27 +60,27 @@ public class WwiseManager : MonoBehaviour {
 	void Awake () {
 		Instance = this;
 		uint bankID; // Not used
-		AkSoundEngine.LoadBank ("AsylumJam2016Bank", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
+		//AkSoundEngine.LoadBank ("AsylumJam2016Bank", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
 	}
 
 	// utiliser une enum pour appeler un event
 	public void playWwiseEvent(EventsEnum eventToPlay)
 	{
-		AkSoundEngine.PostEvent (eventToPlay.ToString(),gameObject);
+		//AkSoundEngine.PostEvent (eventToPlay.ToString(),gameObject);
 	}
 
 	// utiliser un string pour appeler un event
 	public void playWwiseEvent(string eventToPlay)
 	{
-		AkSoundEngine.PostEvent (eventToPlay,gameObject);
+		//AkSoundEngine.PostEvent (eventToPlay,gameObject);
 	}
 
 	// change switch
 	public void switchUkulele(SwitchEnum switchValue){
-		AkSoundEngine.SetSwitch ("girl_step_ukulele",switchValue.ToString(),gameObject);
+		//AkSoundEngine.SetSwitch ("girl_step_ukulele",switchValue.ToString(),gameObject);
 	}
 
 	public void changeRtpcValueUkulele(float rtpcValue){
-		AkSoundEngine.SetRTPCValue ("girl_step_ukulele",rtpcValue);
+		//AkSoundEngine.SetRTPCValue ("girl_step_ukulele",rtpcValue);
 	}
 }

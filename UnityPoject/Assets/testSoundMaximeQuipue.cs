@@ -7,6 +7,6 @@ public class testSoundMaximeQuipue : MonoBehaviour {
 	// Use this for initialization
 	void Awake ()
     {
-        AkBankManager.LoadBankAsync("AsylumJam2016Bank");
+        //AkBankManager.LoadBankAsync("AsylumJam2016Bank");
     }
 }

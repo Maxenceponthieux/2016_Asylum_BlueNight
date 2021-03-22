@@ -20,7 +20,7 @@ public class CursorController : MonoBehaviour
 
     public void Update()
     {
-        transform.Rotate(new Vector3(0, 2, 0));
+        transform.Rotate(new Vector3(0, 40, 0) * Time.deltaTime);
     }
 
     void Appear()

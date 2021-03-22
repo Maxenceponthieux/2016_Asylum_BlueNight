@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using System.Threading;
+using UnityEngine.Video;
 
 public class MovieController : MonoBehaviour {
 
@@ -9,23 +11,13 @@ public class MovieController : MonoBehaviour {
     public float SwitchAfter = 21f;
     public WwiseManager.EventsEnum eventToLaunch = WwiseManager.EventsEnum.play_cinematic_begin;
 
+    public VideoPlayer videoPlayer;
+    
 	// Use this for initialization
 	void Start ()
     {
         WwiseManager.Instance.playWwiseEvent(eventToLaunch);
-
-        Renderer r = GetComponent<Renderer>();
-        MovieTexture movie = (MovieTexture)r.material.mainTexture;
-
-        if (movie.isPlaying)
-        {
-            movie.Pause();
-        }
-        else
-        {
-            movie.Play();
-        }
-
+        videoPlayer.Play();
         Invoke("BeginChangeScene", SwitchAfter);
     }
 

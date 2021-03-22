@@ -9,7 +9,7 @@ public class TexturesPostprocessor : AssetPostprocessor {
 		if (assetPath.Contains("EasyMaskingTransition/Textures/Gradations")) {
 			
 			TextureImporter textureImporter = assetImporter as TextureImporter;
-			textureImporter.textureType = TextureImporterType.Advanced;
+			textureImporter.textureType = TextureImporterType.Default;
 			textureImporter.grayscaleToAlpha = true;
 			textureImporter.textureFormat = TextureImporterFormat.Alpha8;
 		}

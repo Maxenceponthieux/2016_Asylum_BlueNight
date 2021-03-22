@@ -14,7 +14,7 @@ public class AI : MonoBehaviour
     AiSTate state = AiSTate.Roaming;
     Vector3 basePos;
     GameObject player;
-    NavMeshAgent agent;
+    UnityEngine.AI.NavMeshAgent agent;
 
     public float wanderRadius;
     public float wanderTimer;
@@ -30,7 +30,7 @@ public class AI : MonoBehaviour
     void Awake()
     {
         basePos = transform.position;
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
 	// Use this for initialization
@@ -90,9 +90,9 @@ public class AI : MonoBehaviour
 
         randDirection += origin;
 
-        NavMeshHit navHit;
+        UnityEngine.AI.NavMeshHit navHit;
 
-        NavMesh.SamplePosition(randDirection, out navHit, dist, layermask);
+        UnityEngine.AI.NavMesh.SamplePosition(randDirection, out navHit, dist, layermask);
 
         return navHit.position;
     }

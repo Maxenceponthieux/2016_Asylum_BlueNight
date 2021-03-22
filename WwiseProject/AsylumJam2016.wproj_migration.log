@@ -1,0 +1,238 @@
+Project migration to XML Schema (XSD) version 73 is completed.
+Project migration to XML Schema (XSD) version 74 is completed.
+Project migration to XML Schema (XSD) version 75 is completed.
+Project migration to XML Schema (XSD) version 76 is completed.
+Project migration to XML Schema (XSD) version 77 is completed.
+Project migration to XML Schema (XSD) version 78 is completed.
+Project migration to XML Schema (XSD) version 79 is completed.
+Project migration to XML Schema (XSD) version 80 is completed.
+Project migration to XML Schema (XSD) version 81 is completed.
+Warning: Effects on Auxiliary Busses will no longer ignore dry levels. Effects that used to ignore dry levels had their dry levels muted by the migration if they were placed on Auxiliary Busses to keep the project's previous behavior. There may be differences in behavior if the same Effect is applied to an Auxiliary Bus and another object. Please refer to the migration notes for more information.
+Project migration to XML Schema (XSD) version 82 is completed.
+Project migration to XML Schema (XSD) version 83 is completed.
+All instances of the Motion related information in presets (including MotionFX, MotionVolume, MotionLowpass, OverrideMotionOutput) have been removed from this project. They have not been migrated to the new scheme for Motion support.
+All instances of the Motion related information in queries (including MotionFX, MotionBus, MotionSource, MotionVolume, MotionLowpass, OverrideMotionOutput) have been removed from this project. They have not been migrated to the new scheme for Motion support.
+All instances of the Motion related information in queries (including MotionFX, MotionBus, MotionSource, MotionVolume, MotionLowpass, OverrideMotionOutput) have been removed from this project. They have not been migrated to the new scheme for Motion support.
+Project migration to XML Schema (XSD) version 84 is completed.
+Project migration to XML Schema (XSD) version 85 is completed.
+Project migration to XML Schema (XSD) version 86 is completed.
+Project migration to XML Schema (XSD) version 87 is completed.
+Project migration to XML Schema (XSD) version 88 is completed.
+Project migration to XML Schema (XSD) version 89 is completed.
+Project migration to XML Schema (XSD) version 90 is completed.
+Project migration to XML Schema (XSD) version 91 is completed.
+Project migration to XML Schema (XSD) version 92 is completed.
+Project migration to XML Schema (XSD) version 93 is completed.
+Project migration to XML Schema (XSD) version 94 is completed.
+Project migration to XML Schema (XSD) version 95 is completed.
+Project migration to XML Schema (XSD) version 96 is completed.
+Project migration to XML Schema (XSD) version 97 is completed.
+Project migration to XML Schema (XSD) version 98 is completed.
+Project migration to XML Schema (XSD) version 99 is completed.
+Project migration to XML Schema (XSD) version 100 is completed.
+Project migration to XML Schema (XSD) version 101 is completed.
+Project migration to XML Schema (XSD) version 102 is completed.
+Project migration to XML Schema (XSD) version 103 is completed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Alley\Alley_Intimate'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Alley\Alley_Intimate' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Alley\LongDeepAlley'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Alley\LongDeepAlley' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Alley\NarrowShortAlley'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Alley\NarrowShortAlley' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Field\DistantBuilding_MicsClose'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Field\DistantBuilding_MicsClose' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Field\DistantBuilding_MicsFar'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Field\DistantBuilding_MicsFar' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Forest\ForestAuterlitz_BetweenTrees'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Forest\ForestAuterlitz_BetweenTrees' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Forest\ForestAuterlitz_DenseClose'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Forest\ForestAuterlitz_DenseClose' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Forest\ForestAuterlitz_DenseFar'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Forest\ForestAuterlitz_DenseFar' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Forest\ForestAuterlitz_WideOpen'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Forest\ForestAuterlitz_WideOpen' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Tunnel\Tunnel'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Tunnel\Tunnel' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\CloseEcho'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\CloseEcho' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\ComplexEcho'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\ComplexEcho' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\ComplexDistantEcho'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\ComplexDistantEcho' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\DistantEcho'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\DistantEcho' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\DistantSlaps'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\DistantSlaps' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\EquallySpacedEchoes'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\EquallySpacedEchoes' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\LongAndComplex'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\LongAndComplex' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\LoudEcho'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\LoudEcho' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\LongNoEchoes'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\LongNoEchoes' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\LongSixWideEchoes'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\LongSixWideEchoes' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\OpenThreeEchoes'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\OpenThreeEchoes' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\OpenShortTwoEchoes'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\OpenShortTwoEchoes' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\PheeeewEcho_01'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\PheeeewEcho_01' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\PheeeewEcho_02'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\PheeeewEcho_02' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\SlapsEchoClose'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\SlapsEchoClose' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\SmoothIntimate'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\SmoothIntimate' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\TwoFarBuildings'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\TwoFarBuildings' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\WideEcho'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\WideEcho' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\WideWithCars'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Outdoor Street\WideWithCars' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Attic_01'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Attic_01' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Attic_02'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Attic_02' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Bathroom'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Bathroom' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Bedroom'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Bedroom' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Classroom'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Classroom' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Corridor'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Corridor' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Hallway'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Hallway' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\LivingRoom_01'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\LivingRoom_01' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\LivingRoom_02'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\LivingRoom_02' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\SchoolHall'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\SchoolHall' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Staircase'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Domestic\Staircase' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Misc\FireDepartment'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Misc\FireDepartment' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Beetle'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Beetle' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Ford_TransitVanRear'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Ford_TransitVanRear' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Helicopter_Sikorski'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Helicopter_Sikorski' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Honda_Element'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Honda_Element' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Honda_ElementRear'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Honda_ElementRear' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Peugeot_PartnerFront'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Peugeot_PartnerFront' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Peugeot_PartnerBackClosed'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Peugeot_PartnerBackClosed' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Train_BlueAngel'. Edition and playback won't be available for this object.
+'\Effects\Factory Altiverb - Outdoor and More\Altiverb - Outdoor and More\Transport\Train_BlueAngel' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Halls\AK_BerlinTeldex'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Halls\AK_BerlinTeldex' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Halls\AK_Berlin_Stadtbad'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Halls\AK_Berlin_Stadtbad' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Halls\AK_Brasilien_Halle'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Halls\AK_Brasilien_Halle' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Exteriors\AK_Hamburg_Harburger_See'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Exteriors\AK_Hamburg_Harburger_See' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Exteriors\AK_Hamburg_Volksdorfer_Wald'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Exteriors\AK_Hamburg_Volksdorfer_Wald' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Exteriors\AK_Hamburg_Stadtpark_01'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Exteriors\AK_Hamburg_Stadtpark_01' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Exteriors\AK_Hamburg_Stadtpark_02'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Exteriors\AK_Hamburg_Stadtpark_02' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Large Spaces\AK_Hamburg_Parkhaus'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Large Spaces\AK_Hamburg_Parkhaus' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Large Spaces\AK_Stair_Way_Hall'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Large Spaces\AK_Stair_Way_Hall' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Large Spaces\AK_Hamburg_Fabrik'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Large Spaces\AK_Hamburg_Fabrik' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Large Spaces\AK_Hamburg_Fabrik_SCOUT'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Large Spaces\AK_Hamburg_Fabrik_SCOUT' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_Hamburg_Echo_Chamber'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_Hamburg_Echo_Chamber' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_Hamburg_Pinguin_Buro'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_Hamburg_Pinguin_Buro' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_BlueNoise_Room_01'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_BlueNoise_Room_01' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_BlueNoise_Room_02'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_BlueNoise_Room_02' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_BlueNoise_Room_03'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_BlueNoise_Room_03' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_Luna_Studio'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_Luna_Studio' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_Hamburg_Karl_Schneider_Halle'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Rooms\AK_Hamburg_Karl_Schneider_Halle' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Churches\AK_StKatharinen'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Churches\AK_StKatharinen' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Churches\AK_MediumChurch'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\_IR Default\Churches\AK_MediumChurch' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Cathedrals\Dark_Cathedral'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Cathedrals\Dark_Cathedral' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Cathedrals\Colossal_Cathedral'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Cathedrals\Colossal_Cathedral' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Cathedrals\Lost_in_a_Cathedral'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Cathedrals\Lost_in_a_Cathedral' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Cathedrals\Filtered_Cathedral'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Cathedrals\Filtered_Cathedral' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Churches\Medium_Church'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Churches\Medium_Church' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Churches\Famous_Church'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Churches\Famous_Church' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgHarburgerSee_Slap_02'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgHarburgerSee_Slap_02' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgHarburgerSee_Slap_01'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgHarburgerSee_Slap_01' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgStadtpark_Dense_Reflections'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgStadtpark_Dense_Reflections' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgVolksdorferWald_Diffusion'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgVolksdorferWald_Diffusion' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgStadtpark_ER'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgStadtpark_ER' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgStadtpark_Stage_Reflections'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgStadtpark_Stage_Reflections' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgStadtpark_Stage_Reflections_Gated'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Exteriors\HamburgStadtpark_Stage_Reflections_Gated' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Large_Bright_Space'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Large_Bright_Space' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Lecture_Hall'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Lecture_Hall' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Dark_Hall'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Dark_Hall' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Short_Hall'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Short_Hall' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Crowded_Hall'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Halls\Crowded_Hall' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Large Spaces\HamburgParkhaus'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Large Spaces\HamburgParkhaus' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Large Spaces\Space_Ship'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Large Spaces\Space_Ship' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Large Spaces\Bright_Metallic_Space'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Large Spaces\Bright_Metallic_Space' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Large Spaces\Large_Warehouse'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Large Spaces\Large_Warehouse' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Bright_Echo_Chamber'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Bright_Echo_Chamber' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Damped_Chamber'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Damped_Chamber' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Blue_Reflective_Room'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Blue_Reflective_Room' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Resonant_Room'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Resonant_Room' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Bright_Room'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Bright_Room' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Live_Room'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Live_Room' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Petite_Room'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Petite_Room' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Intimate_Room'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Intimate_Room' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The Plug-in 'Wwise Convolution Reverb' was not found for '\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Gated_Metallic_Reflections'. Edition and playback won't be available for this object.
+'\Effects\Factory Convolution Reverb Effects\Audiokinetic\Rooms\Gated_Metallic_Reflections' uses the audio effect plugin 'Wwise Convolution Reverb', which is not installed.
+The default work unit '\Virtual Acoustics\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Metadata\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+Some new object properties have been added or obsolete properties deleted. The project file was updated. These changes will not have an impact on your project.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{54B15A9A-E989-449A-A520-EEBE05CBC381}" SchemaVersion="72" RootDocumentID="{B6F6C6A5-6452-43EC-9612-361FED6BD3A5}">
+<WwiseDocument Type="WorkUnit" ID="{54B15A9A-E989-449A-A520-EEBE05CBC381}" SchemaVersion="103" RootDocumentID="{B6F6C6A5-6452-43EC-9612-361FED6BD3A5}" ParentDocumentID="{B6F6C6A5-6452-43EC-9612-361FED6BD3A5}">
 	<AudioObjects>
 		<WorkUnit Name="Monster" ID="{54B15A9A-E989-449A-A520-EEBE05CBC381}" OwnerID="{B6F6C6A5-6452-43EC-9612-361FED6BD3A5}" PersistMode="Nested">
 			<ChildrenList>
@@ -22,8 +22,9 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="monster_mus_founded" ID="{18405AD3-67AC-437B-8017-CC380A7FFCCA}" ShortID="323990331" Type="SoundFX">
+						<Sound Name="monster_mus_founded" ID="{18405AD3-67AC-437B-8017-CC380A7FFCCA}" ShortID="323990331">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
@@ -31,7 +32,6 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
-								<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -47,17 +47,22 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="monster_mus_founded" ID="{677301EE-BF77-4F7E-B60B-A7F46BCAC3D5}" ShortID="146894509">
+								<AudioFileSource Name="monster_mus_founded" ID="{677301EE-BF77-4F7E-B60B-A7F46BCAC3D5}">
 									<Language>SFX</Language>
 									<AudioFile>monster_mus_founded.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="146894509"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="monster_mus_founded" ID="{677301EE-BF77-4F7E-B60B-A7F46BCAC3D5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="monster_stinger_founded" ID="{5DEFF0AD-95EB-43E6-9FE3-FB2A8DF9DF6C}" ShortID="289127426" Type="SoundFX">
+						<Sound Name="monster_stinger_founded" ID="{5DEFF0AD-95EB-43E6-9FE3-FB2A8DF9DF6C}" ShortID="289127426">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
@@ -65,7 +70,6 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
-								<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -81,16 +85,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="monster_stinger_founded" ID="{B7D68ACB-7D78-420B-AF86-E63E531B13C4}" ShortID="274121381">
+								<AudioFileSource Name="monster_stinger_founded" ID="{B7D68ACB-7D78-420B-AF86-E63E531B13C4}">
 									<Language>SFX</Language>
 									<AudioFile>monster_stinger_founded.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="274121381"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="monster_stinger_founded" ID="{B7D68ACB-7D78-420B-AF86-E63E531B13C4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="monster_chase_stinger" ID="{18B58FA2-850C-45C4-8709-A21C7CCB390D}" ShortID="1031850109" Type="SoundFX">
+						<Sound Name="monster_chase_stinger" ID="{18B58FA2-850C-45C4-8709-A21C7CCB390D}" ShortID="1031850109">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
@@ -125,16 +133,21 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="sfx_monster_chase_stinger" ID="{06F531C1-FC34-444D-83AC-7780D69194E5}" ShortID="853021954">
+								<AudioFileSource Name="sfx_monster_chase_stinger" ID="{06F531C1-FC34-444D-83AC-7780D69194E5}">
 									<Language>SFX</Language>
 									<AudioFile>sfx_monster_chase_stinger.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="853021954"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="sfx_monster_chase_stinger" ID="{06F531C1-FC34-444D-83AC-7780D69194E5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Sfx" ID="{DCCFE406-A8AC-4635-87E5-D96B87732B43}" ShortID="654215764">
 					<ReferenceList>
@@ -148,13 +161,13 @@
 					<ChildrenList>
 						<BlendContainer Name="monster_sfx_founded" ID="{BDE0744E-525D-4FD5-A167-1FE140992C77}" ShortID="928980807">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
 									</ValueList>
 								</Property>
-								<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -175,7 +188,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="monster_founded" ID="{A0424AAD-9AA4-4459-B4CC-B91CF22136EA}" ShortID="411997501" Type="SoundFX">
+								<Sound Name="monster_founded" ID="{A0424AAD-9AA4-4459-B4CC-B91CF22136EA}" ShortID="411997501">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
@@ -197,16 +210,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="monster_founded" ID="{BDE8C781-740A-4B6E-B04C-984C1BD71A5E}" ShortID="769873623">
+										<AudioFileSource Name="monster_founded" ID="{BDE8C781-740A-4B6E-B04C-984C1BD71A5E}">
 											<Language>SFX</Language>
 											<AudioFile>monster_founded.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="769873623"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="monster_founded" ID="{BDE8C781-740A-4B6E-B04C-984C1BD71A5E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="monster_founded_02" ID="{480BF8F2-DEB4-4697-93A4-63B6DAED6D15}" ShortID="93176969" Type="SoundFX">
+								<Sound Name="monster_founded_02" ID="{480BF8F2-DEB4-4697-93A4-63B6DAED6D15}" ShortID="93176969">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
@@ -228,19 +245,25 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="monster_founded_02" ID="{324AEBA2-37AF-4CB9-8910-585EDC5F416F}" ShortID="484442676">
+										<AudioFileSource Name="monster_founded_02" ID="{324AEBA2-37AF-4CB9-8910-585EDC5F416F}">
 											<Language>SFX</Language>
 											<AudioFile>monster_founded_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="484442676"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="monster_founded_02" ID="{324AEBA2-37AF-4CB9-8910-585EDC5F416F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</BlendContainer>
 						<RandomSequenceContainer Name="monster_sfx_catch_girl" ID="{C084CF78-4AC7-4DF7-9A33-5660841D3A1B}" ShortID="711502101">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -254,7 +277,6 @@
 									</ValueList>
 								</Property>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
 										<Value>-1970</Value>
@@ -283,7 +305,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="monster_founded" ID="{9D110989-D2C9-4BF9-827A-1162E4579184}" ShortID="122368509" Type="SoundFX">
+								<Sound Name="monster_founded" ID="{9D110989-D2C9-4BF9-827A-1162E4579184}" ShortID="122368509">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{949B5421-C0E3-4C69-82D9-9C222EAFD80D}"/>
@@ -293,19 +315,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="monster_founded" ID="{95F7E76E-5089-4E34-A060-F7EEA4474D7C}" ShortID="328506144">
+										<AudioFileSource Name="monster_founded" ID="{95F7E76E-5089-4E34-A060-F7EEA4474D7C}">
 											<Language>SFX</Language>
 											<AudioFile>monster_founded.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="769873623"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="769873623"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="monster_founded" ID="{95F7E76E-5089-4E34-A060-F7EEA4474D7C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<ObjectLists/>
 						</RandomSequenceContainer>
 						<BlendContainer Name="monster_sfx_chase" ID="{5620EFC4-6DA0-4C42-BABD-5C8DC99CC27F}" ShortID="514020693">
 							<PropertyList>
@@ -348,8 +372,9 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="sfx_chase01" ID="{02D6AA4F-2735-4DB3-ADD8-0A69B56140A4}" ShortID="1025796216" Type="SoundFX">
+										<Sound Name="sfx_chase01" ID="{02D6AA4F-2735-4DB3-ADD8-0A69B56140A4}" ShortID="1025796216">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
@@ -357,7 +382,6 @@
 														<Value>1</Value>
 													</ValueList>
 												</Property>
-												<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="UseMaxSoundPerInstance" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -373,19 +397,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="sfx_chase01" ID="{86B938E2-0233-4C9E-80A8-AC77385E0ECB}" ShortID="711969011">
+												<AudioFileSource Name="sfx_chase01" ID="{86B938E2-0233-4C9E-80A8-AC77385E0ECB}">
 													<Language>SFX</Language>
 													<AudioFile>sfx_chase01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="878497540"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="878497540"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="sfx_chase01" ID="{86B938E2-0233-4C9E-80A8-AC77385E0ECB}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="chase02" ID="{49F0D6E3-C09B-40F1-AA95-DD46671A6461}" ShortID="858842029">
 									<PropertyList>
@@ -404,8 +430,9 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="sfx_chase02" ID="{9A6EC36A-6055-4CC6-B9CA-E32907EEA1DE}" ShortID="986730483" Type="SoundFX">
+										<Sound Name="sfx_chase02" ID="{9A6EC36A-6055-4CC6-B9CA-E32907EEA1DE}" ShortID="986730483">
 											<PropertyList>
+												<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 												<Property Name="MaxSoundPerInstance" Type="int16">
@@ -413,7 +440,6 @@
 														<Value>1</Value>
 													</ValueList>
 												</Property>
-												<Property Name="OverrideMaxSoundInstance" Type="bool" Value="True"/>
 												<Property Name="UseMaxSoundPerInstance" Type="bool">
 													<ValueList>
 														<Value>True</Value>
@@ -434,23 +460,27 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="sfx_chase02" ID="{B94E4E3C-67F5-44BB-86E5-59DF3FDEFE48}" ShortID="63327365">
+												<AudioFileSource Name="sfx_chase02" ID="{B94E4E3C-67F5-44BB-86E5-59DF3FDEFE48}">
 													<Language>SFX</Language>
 													<AudioFile>sfx_chase02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="584503902"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="584503902"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="sfx_chase02" ID="{B94E4E3C-67F5-44BB-86E5-59DF3FDEFE48}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
+							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
+					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
