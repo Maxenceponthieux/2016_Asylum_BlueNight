@@ -69,7 +69,6 @@ public class BlockController : MonoBehaviour
 
     void BeginDestroy()
     {
-        WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_sfx_unlock_door);
         destroying = true;
 
         if (fin == false)

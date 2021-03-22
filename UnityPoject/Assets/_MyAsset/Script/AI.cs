@@ -67,7 +67,6 @@ public class AI : MonoBehaviour
         {
             Debug.Log("Make sure your player is tagged!!");
         }
-        WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_monster_chase);
         state = AiSTate.chasing;
     }
 
@@ -112,11 +111,8 @@ public class AI : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_monster_catch);
-            WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.stop_monster_chase);
             SceneManager.LoadScene("GameOver");
         }
-            
     }
 
     public void Appear()

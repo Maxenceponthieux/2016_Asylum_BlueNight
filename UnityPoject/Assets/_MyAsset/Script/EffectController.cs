@@ -38,8 +38,6 @@ public class EffectController : MonoBehaviour
         {
             havefoundmonster = false;
 
-            WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_girl_research_launch);
-
             DOTween.To(() => distance, x => distance = x, maxDistance, duration).OnComplete(OnEffectComplete);
             width = 1f;
             color = Color.red;
@@ -80,7 +78,6 @@ public class EffectController : MonoBehaviour
                 {
                     if (distance >= monsters[i].Value)
                     {
-                        WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_monster_founded);
                         monsters[i].Key.Appear();
                         monsters.Remove(monsters[i]);
                     }
@@ -109,8 +106,10 @@ public class EffectController : MonoBehaviour
 
     void OnEffectComplete()
     {
-        if(havefoundmonster == false)
-            WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_girl_research_fail);
+        if (havefoundmonster == false)
+        {
+            
+        }
 
         effectIsReady = true;
         distance = 0;

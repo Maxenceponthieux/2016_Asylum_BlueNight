@@ -29,8 +29,6 @@ public class DoorController : MonoBehaviour
         {
             MessageDispatcher.AddListener("ResetDoor", RenitOpenDoor);
             canOpenDoor = false;
-            WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_sfx_open_door);
-            WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.stop_monster_chase);
             BroadcastMessage("Validate");
             MessageDispatcher.SendMessage("BeginTransition");
             Invoke("TeleportPlayer",1.2f);

@@ -17,7 +17,6 @@ public class KeyController : MonoBehaviour {
     {
         transform.DOScale(0, 1.5f).SetEase(Ease.InBack).OnComplete(NotifyPlayer) ;
         GetComponentInChildren<ParticleSystem>().transform.DOScale(0, 1.5f).SetEase(Ease.InBack).OnComplete(NotifyPlayer);
-        WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_girl_pickup);
     }
 
     void NotifyPlayer()

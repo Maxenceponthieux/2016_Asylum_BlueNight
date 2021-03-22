@@ -35,7 +35,6 @@ public class TransitionController : MonoBehaviour {
         yield return new WaitForSeconds(0.15f);
         trans.Play();
         trans.onTransitionComplete.RemoveListener(TransitionInOut);
-        WwiseManager.Instance.playWwiseEvent(WwiseManager.EventsEnum.play_sfx_close_door);
         trans.onTransitionComplete.AddListener(ResetDoor);
         MessageDispatcher.SendMessage("OnPlayInstru");
     }
