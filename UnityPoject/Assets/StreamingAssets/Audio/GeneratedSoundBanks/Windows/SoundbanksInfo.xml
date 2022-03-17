@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\</ProjectRoot>
+		<SourceFilesRoot>D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\UnityPoject\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1168001286">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1807820607" Language="SFX" Hash="1861035576">
+			<ObjectPath>\SoundBanks\Default Work Unit\Sine_Bank</ObjectPath>
+			<ShortName>Sine_Bank</ShortName>
+			<Path>Sine_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2929582682" Name="Play_Test_Sine" ObjectPath="\Events\Default Work Unit\Play_Test_Sine" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
