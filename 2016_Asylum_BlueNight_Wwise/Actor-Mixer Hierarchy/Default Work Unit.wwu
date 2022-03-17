@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2EBFF174-3628-4462-8248-1887E7CC667D}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{2EBFF174-3628-4462-8248-1887E7CC667D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2EBFF174-3628-4462-8248-1887E7CC667D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sine_Test" ID="{7BE493C3-28CD-4753-A189-EF01EFC545E8}" ShortID="713660088">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5141D69F-EB1D-4F11-8235-AD3130D9D13B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="909"/>
+											<Property Name="Min" Type="Real64" Value="-2046"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Sine" ID="{7DAD8F4C-B770-496E-A165-3EFD8FB76744}" ShortID="122557519" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+							<PropertyList>
+								<Property Name="SineDuration" Type="Real32" Value="0.2"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Sine" ID="{7DAD8F4C-B770-496E-A165-3EFD8FB76744}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
