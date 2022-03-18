@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{230DBD72-D977-4141-9514-D45A0A1F48A7}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="AMBIANCES" ID="{230DBD72-D977-4141-9514-D45A0A1F48A7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambiances" ID="{DEE36094-C78A-4DAA-9203-2E5F82626194}" ShortID="625026261"/>
+				<Folder Name="Music" ID="{A9EF698F-65F2-4073-87D7-479668049451}" ShortID="953091787"/>
+				<Folder Name="Props" ID="{EFC0F39D-A838-42B6-A4D1-D31EED684AB7}" ShortID="237775789"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

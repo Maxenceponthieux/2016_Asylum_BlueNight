@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB4C0DAF-B4DA-4320-A643-14D823DCBC6D}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="INTERACTIBLES" ID="{AB4C0DAF-B4DA-4320-A643-14D823DCBC6D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Hint_Door" ID="{21B19994-83D4-43BA-847B-403E2A5B8F41}" ShortID="43391049"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

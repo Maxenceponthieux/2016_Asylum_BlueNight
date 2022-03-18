@@ -9,5 +9,6 @@ public class StepSound : MonoBehaviour {
 
 	public void PetitPas()
     {
+        Debug.Log("coucou");
     }
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9297BA68-C4D9-4615-9DF3-C2723B384B73}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="REWARDS" ID="{9297BA68-C4D9-4615-9DF3-C2723B384B73}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Green_Cube" ID="{0C73DE9F-0FEF-4F8B-B75C-F005E2780897}" ShortID="814378049"/>
+				<Folder Name="Red_Cube" ID="{8C4AB539-BB29-4541-95E7-21DE2D93A06D}" ShortID="569115237"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
