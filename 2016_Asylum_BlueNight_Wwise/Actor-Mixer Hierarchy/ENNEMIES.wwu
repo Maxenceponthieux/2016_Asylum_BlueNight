@@ -47,8 +47,34 @@
 					</ReferenceList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Ennemies_Réplica" ID="{836FF6C8-B371-4B77-9E8F-33A0B02C8BCE}" ShortID="620918890">
+				<RandomSequenceContainer Name="Ennemies_Replica" ID="{836FF6C8-B371-4B77-9E8F-33A0B02C8BCE}" ShortID="620918890">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4CE03AD6-662B-49DC-8D3F-CF69024FA97E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Enemy_replica_positionning" ID="{0A867C6D-3189-4B1E-952A-655C3A319B5F}" WorkUnitID="{FCB34FE3-74EC-4420-ABA2-4B34CA318EB9}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
 						</Reference>
@@ -56,6 +82,606 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LittleGirl_Laught" ID="{DFE1BE52-45E1-4FFB-ABA3-7ED35851C15F}" ShortID="471264202">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Laught" ID="{0C18FB9D-5EC3-4C79-AFB7-E71F251E9373}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Laught.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="748186589"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Laught" ID="{0C18FB9D-5EC3-4C79-AFB7-E71F251E9373}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Laught_2" ID="{8BFD75B6-1051-4503-9D9F-810F9F7B8458}" ShortID="861463827">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Laught_2" ID="{9AB6B20D-EC26-4CF1-893C-E8E6EE0DE7D1}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Laught_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="582432050"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Laught_2" ID="{9AB6B20D-EC26-4CF1-893C-E8E6EE0DE7D1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Laught_3" ID="{7993B857-BE19-41AF-A8A2-ACEFADB30207}" ShortID="945238893">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Laught_3" ID="{5ECDD663-D594-4270-9528-24464B0725D0}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Laught_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="956883265"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Laught_3" ID="{5ECDD663-D594-4270-9528-24464B0725D0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Laught_4" ID="{4F2F20B8-2C6E-4B78-B3C6-4E226A1E75B0}" ShortID="610887685">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Laught_4" ID="{45980EFF-1966-49BC-BD96-915C3541C5C1}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Laught_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="874045316"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Laught_4" ID="{45980EFF-1966-49BC-BD96-915C3541C5C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Laught_5" ID="{C8FBC702-1B7C-4669-8110-10DDD906159A}" ShortID="805823159">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Laught_5" ID="{2B8E23A8-7719-4F85-9201-415CE4367604}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Laught_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="629446853"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Laught_5" ID="{2B8E23A8-7719-4F85-9201-415CE4367604}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing" ID="{243CA172-95AC-473D-A298-89DE7C0DD66B}" ShortID="895698000">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing" ID="{E0AE613B-BE08-45B3-BE31-969E4CCB59A5}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="30901348"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing" ID="{E0AE613B-BE08-45B3-BE31-969E4CCB59A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_2" ID="{F4A45FDE-72DC-4F92-867C-8E94806A6A91}" ShortID="45444504">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_2" ID="{76929A1C-0D4C-4A5A-B0D6-4133B005BF7B}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="812118863"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_2" ID="{76929A1C-0D4C-4A5A-B0D6-4133B005BF7B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_3" ID="{86A93517-4355-4D37-BF8C-BF8BD294F266}" ShortID="877561190">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_3" ID="{A4BDC7F9-7E88-4A67-8CD0-447E37B05155}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="561254055"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_3" ID="{A4BDC7F9-7E88-4A67-8CD0-447E37B05155}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_4" ID="{DC7DE76B-1BB8-44CE-88ED-FC2967099542}" ShortID="217494740">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_4" ID="{09B59A55-621C-4CCC-8C05-68BB092206DC}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1068731834"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_4" ID="{09B59A55-621C-4CCC-8C05-68BB092206DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_5" ID="{05BAE75D-B943-47AE-833B-5E4B1C00BDE2}" ShortID="1031863503">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_5" ID="{5E2C4D94-64A0-4A3A-8AD6-F1D96112DEBF}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="494228331"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_5" ID="{5E2C4D94-64A0-4A3A-8AD6-F1D96112DEBF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_6" ID="{148B442C-157E-4CCF-A49B-3C4165AA831F}" ShortID="136842130">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_6" ID="{17EB472B-B602-473A-B325-6E9794912FD2}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="791732690"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_6" ID="{17EB472B-B602-473A-B325-6E9794912FD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_7" ID="{AEF792AD-B11E-4C46-9C02-6A17CB9B0B51}" ShortID="850431652">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_7" ID="{0DC6FA7D-F2BD-4424-9EA0-60847AE62A67}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="194197328"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_7" ID="{0DC6FA7D-F2BD-4424-9EA0-60847AE62A67}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_8" ID="{07FE87F3-F684-4874-A486-1DB3D70692FF}" ShortID="590826470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_8" ID="{25BF6AAC-6B16-4B63-B4CE-A09E83E3CD8B}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="208296155"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_8" ID="{25BF6AAC-6B16-4B63-B4CE-A09E83E3CD8B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_9" ID="{0882A09D-1D27-4F93-9927-51CE0C1FF65D}" ShortID="510856514">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_9" ID="{3FBD8BA9-3F62-4CA3-8287-5176AFCE7756}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="370459680"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_9" ID="{3FBD8BA9-3F62-4CA3-8287-5176AFCE7756}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_10" ID="{75E48387-E9AE-40A3-A7E9-DF537409338E}" ShortID="232776957">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_10" ID="{53350437-66F7-40A4-BFA1-380450781028}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="847234105"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_10" ID="{53350437-66F7-40A4-BFA1-380450781028}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Sing_11" ID="{7E539414-D4A0-44A3-8B3A-33619C8B1E77}" ShortID="250522382">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Sing_11" ID="{099F91ED-316F-4AD2-9313-D9B609E3AF6B}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Sing_11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1030712406"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Sing_11" ID="{099F91ED-316F-4AD2-9313-D9B609E3AF6B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice" ID="{4CE451AC-AB3B-4827-9109-D304478A1860}" ShortID="998343010">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice" ID="{CC504A2A-2B67-4F6F-9B37-71E588C0FEE5}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1011655840"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice" ID="{CC504A2A-2B67-4F6F-9B37-71E588C0FEE5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_2" ID="{226AF44D-E74E-4596-B29C-C95B50B54B44}" ShortID="1031198784">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_2" ID="{56713047-DD4E-4E32-ADF7-AEB19D8BFCDF}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="597630841"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_2" ID="{56713047-DD4E-4E32-ADF7-AEB19D8BFCDF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_3" ID="{5383F9FA-2878-4C1C-816D-D80FAC5B86D2}" ShortID="664854078">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_3" ID="{5B336D49-E719-4C24-9375-2B8079D1F80F}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="814864529"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_3" ID="{5B336D49-E719-4C24-9375-2B8079D1F80F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_4" ID="{4D760FB2-F24C-4B04-8A52-DC9B2AC15091}" ShortID="192697221">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_4" ID="{D455F75B-0563-4CEC-A605-B8DE46D1C6FB}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="65174602"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_4" ID="{D455F75B-0563-4CEC-A605-B8DE46D1C6FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_6" ID="{7341B883-60BB-4AA5-8B9B-C60BA042C8A8}" ShortID="870262550">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_6" ID="{A17E6E4B-F4D6-4091-B65F-193AC5FD7839}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="546706296"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_6" ID="{A17E6E4B-F4D6-4091-B65F-193AC5FD7839}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_7" ID="{F49E7AC4-4215-41D9-8CC2-7DD565A360B1}" ShortID="24264255">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_7" ID="{E990094C-988F-4B9E-8845-11960F241E47}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="824758122"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_7" ID="{E990094C-988F-4B9E-8845-11960F241E47}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_8" ID="{A9A116B7-CF74-4283-A42A-F3BE7FC28FEB}" ShortID="806575503">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_8" ID="{42B07AFE-057F-417D-AC5E-E9FEC7E76969}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="263483579"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_8" ID="{42B07AFE-057F-417D-AC5E-E9FEC7E76969}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_9" ID="{D32C0B25-1D9C-4CF3-92BF-0880832700FD}" ShortID="546529287">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_9" ID="{E5E5ED1E-BA29-4C77-BD9D-7BCE22561046}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_9.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="215221106"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_9" ID="{E5E5ED1E-BA29-4C77-BD9D-7BCE22561046}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_10" ID="{109CF76E-A237-41CA-9FCD-BAC7899E5F25}" ShortID="481514031">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_10" ID="{4A4EB3AE-425B-4365-B1BA-E83EF84C0D35}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="89398135"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_10" ID="{4A4EB3AE-425B-4365-B1BA-E83EF84C0D35}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="LittleGirl_Voice_11" ID="{4BD0FAAA-2715-4C28-BF8F-0735C2D7411F}" ShortID="847975825">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LittleGirl_Voice_11" ID="{955ED380-819E-46F6-A15E-AEB692D6F5A3}">
+									<Language>SFX</Language>
+									<AudioFile>LittleGirl_Voice_11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1014647355"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LittleGirl_Voice_11" ID="{955ED380-819E-46F6-A15E-AEB692D6F5A3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
 			</ChildrenList>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{646C1B02-721B-4D5A-88CF-CF7FA4CD367B}" SchemaVersion="103">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{646C1B02-721B-4D5A-88CF-CF7FA4CD367B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{646C1B02-721B-4D5A-88CF-CF7FA4CD367B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Clock_Distance" ID="{3189DD04-C15D-4EFE-8400-80F3D5BC8A2F}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

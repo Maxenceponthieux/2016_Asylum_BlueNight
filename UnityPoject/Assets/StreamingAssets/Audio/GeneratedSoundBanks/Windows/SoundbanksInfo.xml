@@ -11,17 +11,261 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1168001286">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3182427311">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1807820607" Language="SFX" Hash="1861035576">
+		<SoundBank Id="1807820607" Language="SFX" Hash="2518787422">
 			<ObjectPath>\SoundBanks\Default Work Unit\Sine_Bank</ObjectPath>
 			<ShortName>Sine_Bank</ShortName>
 			<Path>Sine_Bank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="120648899" Name="Play_Ambiance_Bathroom" ObjectPath="\Events\Default Work Unit\Play_Ambiance_Bathroom" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="102303975" Language="SFX">
+							<ShortName>Ambiance_Bathroom.wav</ShortName>
+							<Path>SFX\Ambiance_Bathroom_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="133145239" Name="Play_AmbianceRoom" ObjectPath="\Events\Default Work Unit\Play_AmbianceRoom" MaxAttenuation="50.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="592357104" Language="SFX">
+							<ShortName>AmbianceRoom.wav</ShortName>
+							<Path>SFX\AmbianceRoom_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3365459787" Name="Play_Ennemies_Replica" ObjectPath="\Events\Default Work Unit\Play_Ennemies_Replica" MaxAttenuation="5.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="30901348" Language="SFX">
+							<ShortName>LittleGirl_Sing.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_10C4C929.wem</Path>
+						</File>
+						<File Id="65174602" Language="SFX">
+							<ShortName>LittleGirl_Voice_4.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_4_10C4C929.wem</Path>
+						</File>
+						<File Id="89398135" Language="SFX">
+							<ShortName>LittleGirl_Voice_10.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_10_10C4C929.wem</Path>
+						</File>
+						<File Id="194197328" Language="SFX">
+							<ShortName>LittleGirl_Sing_7.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_7_10C4C929.wem</Path>
+						</File>
+						<File Id="208296155" Language="SFX">
+							<ShortName>LittleGirl_Sing_8.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_8_10C4C929.wem</Path>
+						</File>
+						<File Id="215221106" Language="SFX">
+							<ShortName>LittleGirl_Voice_9.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_9_10C4C929.wem</Path>
+						</File>
+						<File Id="263483579" Language="SFX">
+							<ShortName>LittleGirl_Voice_8.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_8_10C4C929.wem</Path>
+						</File>
+						<File Id="370459680" Language="SFX">
+							<ShortName>LittleGirl_Sing_9.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_9_10C4C929.wem</Path>
+						</File>
+						<File Id="494228331" Language="SFX">
+							<ShortName>LittleGirl_Sing_5.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_5_10C4C929.wem</Path>
+						</File>
+						<File Id="546706296" Language="SFX">
+							<ShortName>LittleGirl_Voice_6.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_6_10C4C929.wem</Path>
+						</File>
+						<File Id="561254055" Language="SFX">
+							<ShortName>LittleGirl_Sing_3.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_3_10C4C929.wem</Path>
+						</File>
+						<File Id="582432050" Language="SFX">
+							<ShortName>LittleGirl_Laught_2.wav</ShortName>
+							<Path>SFX\LittleGirl_Laught_2_10C4C929.wem</Path>
+						</File>
+						<File Id="597630841" Language="SFX">
+							<ShortName>LittleGirl_Voice_2.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_2_10C4C929.wem</Path>
+						</File>
+						<File Id="629446853" Language="SFX">
+							<ShortName>LittleGirl_Laught_5.wav</ShortName>
+							<Path>SFX\LittleGirl_Laught_5_10C4C929.wem</Path>
+						</File>
+						<File Id="748186589" Language="SFX">
+							<ShortName>LittleGirl_Laught.wav</ShortName>
+							<Path>SFX\LittleGirl_Laught_10C4C929.wem</Path>
+						</File>
+						<File Id="791732690" Language="SFX">
+							<ShortName>LittleGirl_Sing_6.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_6_10C4C929.wem</Path>
+						</File>
+						<File Id="812118863" Language="SFX">
+							<ShortName>LittleGirl_Sing_2.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_2_10C4C929.wem</Path>
+						</File>
+						<File Id="814864529" Language="SFX">
+							<ShortName>LittleGirl_Voice_3.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_3_10C4C929.wem</Path>
+						</File>
+						<File Id="824758122" Language="SFX">
+							<ShortName>LittleGirl_Voice_7.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_7_10C4C929.wem</Path>
+						</File>
+						<File Id="847234105" Language="SFX">
+							<ShortName>LittleGirl_Sing_10.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_10_10C4C929.wem</Path>
+						</File>
+						<File Id="874045316" Language="SFX">
+							<ShortName>LittleGirl_Laught_4.wav</ShortName>
+							<Path>SFX\LittleGirl_Laught_4_10C4C929.wem</Path>
+						</File>
+						<File Id="956883265" Language="SFX">
+							<ShortName>LittleGirl_Laught_3.wav</ShortName>
+							<Path>SFX\LittleGirl_Laught_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1011655840" Language="SFX">
+							<ShortName>LittleGirl_Voice.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_10C4C929.wem</Path>
+						</File>
+						<File Id="1014647355" Language="SFX">
+							<ShortName>LittleGirl_Voice_11.wav</ShortName>
+							<Path>SFX\LittleGirl_Voice_11_10C4C929.wem</Path>
+						</File>
+						<File Id="1030712406" Language="SFX">
+							<ShortName>LittleGirl_Sing_11.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_11_10C4C929.wem</Path>
+						</File>
+						<File Id="1068731834" Language="SFX">
+							<ShortName>LittleGirl_Sing_4.wav</ShortName>
+							<Path>SFX\LittleGirl_Sing_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3352638585" Name="Play_Light_Bulb_Cracking" ObjectPath="\Events\Default Work Unit\Play_Light_Bulb_Cracking" MaxAttenuation="15.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="316747137" Language="SFX">
+							<ShortName>Random_Light Bulb_2.wav</ShortName>
+							<Path>SFX\Random_Light Bulb_2_10C4C929.wem</Path>
+						</File>
+						<File Id="635384135" Language="SFX">
+							<ShortName>Random_Light Bulb.wav</ShortName>
+							<Path>SFX\Random_Light Bulb_10C4C929.wem</Path>
+						</File>
+						<File Id="989829933" Language="SFX">
+							<ShortName>Random_Light Bulb_3.wav</ShortName>
+							<Path>SFX\Random_Light Bulb_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2827608747" Name="Play_LullabyCreepy" ObjectPath="\Events\Default Work Unit\Play_LullabyCreepy" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="989052880" Language="SFX">
+							<ShortName>LullabyCreepy.wav</ShortName>
+							<Path>SFX\LullabyCreepy_2471B63D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="467334082" Name="Play_Props_Chair" ObjectPath="\Events\Default Work Unit\Play_Props_Chair" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="10693175" Language="SFX">
+							<ShortName>Random_Chair_2.wav</ShortName>
+							<Path>SFX\Random_Chair_2_10C4C929.wem</Path>
+						</File>
+						<File Id="112758311" Language="SFX">
+							<ShortName>Random_Chair_5.wav</ShortName>
+							<Path>SFX\Random_Chair_5_10C4C929.wem</Path>
+						</File>
+						<File Id="133459126" Language="SFX">
+							<ShortName>Random_Chair_6.wav</ShortName>
+							<Path>SFX\Random_Chair_6_10C4C929.wem</Path>
+						</File>
+						<File Id="180319502" Language="SFX">
+							<ShortName>Random_Chair.wav</ShortName>
+							<Path>SFX\Random_Chair_10C4C929.wem</Path>
+						</File>
+						<File Id="358282045" Language="SFX">
+							<ShortName>Random_Chair_7.wav</ShortName>
+							<Path>SFX\Random_Chair_7_10C4C929.wem</Path>
+						</File>
+						<File Id="478219159" Language="SFX">
+							<ShortName>Random_Chair_8.wav</ShortName>
+							<Path>SFX\Random_Chair_8_10C4C929.wem</Path>
+						</File>
+						<File Id="542635065" Language="SFX">
+							<ShortName>Random_Chair_3.wav</ShortName>
+							<Path>SFX\Random_Chair_3_10C4C929.wem</Path>
+						</File>
+						<File Id="833943224" Language="SFX">
+							<ShortName>Random_Chair_4.wav</ShortName>
+							<Path>SFX\Random_Chair_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1906791523" Name="Play_Props_Clock" ObjectPath="\Events\Default Work Unit\Play_Props_Clock" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="215676209" Language="SFX">
+							<ShortName>Props_Clock.wav</ShortName>
+							<Path>SFX\Props_Clock_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1622683606" Name="Play_Props_vinyle" ObjectPath="\Events\Default Work Unit\Play_Props_vinyle" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="834938742" Language="SFX">
+							<ShortName>Props_vinyle.wav</ShortName>
+							<Path>SFX\Props_vinyle_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2929582682" Name="Play_Test_Sine" ObjectPath="\Events\Default Work Unit\Play_Test_Sine" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="3856631083" Name="Play_Wather_Dorp" ObjectPath="\Events\Default Work Unit\Play_Wather_Dorp" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="5734675" Language="SFX">
+							<ShortName>Random_WaterDrop_8.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_8_10C4C929.wem</Path>
+						</File>
+						<File Id="183402565" Language="SFX">
+							<ShortName>Random_WaterDrop_10.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_10_10C4C929.wem</Path>
+						</File>
+						<File Id="342544753" Language="SFX">
+							<ShortName>Random_WaterDrop.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_10C4C929.wem</Path>
+						</File>
+						<File Id="384339717" Language="SFX">
+							<ShortName>Random_WaterDrop_6.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_6_10C4C929.wem</Path>
+						</File>
+						<File Id="396502398" Language="SFX">
+							<ShortName>Random_WaterDrop_7.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_7_10C4C929.wem</Path>
+						</File>
+						<File Id="469648377" Language="SFX">
+							<ShortName>Random_WaterDrop_2.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_2_10C4C929.wem</Path>
+						</File>
+						<File Id="557706203" Language="SFX">
+							<ShortName>Random_WaterDrop_4.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_4_10C4C929.wem</Path>
+						</File>
+						<File Id="680513159" Language="SFX">
+							<ShortName>Random_WaterDrop_9.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_9_10C4C929.wem</Path>
+						</File>
+						<File Id="681413050" Language="SFX">
+							<ShortName>Random_WaterDrop_5.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_5_10C4C929.wem</Path>
+						</File>
+						<File Id="730969388" Language="SFX">
+							<ShortName>Random_WaterDrop_3.wav</ShortName>
+							<Path>SFX\Random_WaterDrop_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
