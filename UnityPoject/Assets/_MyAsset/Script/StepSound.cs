@@ -3,12 +3,17 @@ using System.Collections;
 
 public class StepSound : MonoBehaviour {
 
+     
+
     void Start()
     {
     }
 
 	public void PetitPas()
     {
-        Debug.Log("coucou");
+        AkSoundEngine.PostEvent("Play_Player_Footsteps", gameObject);
+
+
+
     }
-}
+}   

@@ -32,6 +32,7 @@ public class DoorController : MonoBehaviour
             BroadcastMessage("Validate");
             MessageDispatcher.SendMessage("BeginTransition");
             Invoke("TeleportPlayer",1.2f);
+            AkSoundEngine.PostEvent("Play_Hint_door", gameObject);
         }  
 	}
 

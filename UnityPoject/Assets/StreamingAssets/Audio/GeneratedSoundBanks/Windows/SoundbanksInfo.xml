@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1807820607" Language="SFX" Hash="2518787422">
+		<SoundBank Id="1807820607" Language="SFX" Hash="2285961260">
 			<ObjectPath>\SoundBanks\Default Work Unit\Sine_Bank</ObjectPath>
 			<ShortName>Sine_Bank</ShortName>
 			<Path>Sine_Bank.bnk</Path>
@@ -37,7 +37,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3365459787" Name="Play_Ennemies_Replica" ObjectPath="\Events\Default Work Unit\Play_Ennemies_Replica" MaxAttenuation="5.000000" DurationType="Infinite">
+				<Event Id="3365459787" Name="Play_Ennemies_Replica" ObjectPath="\Events\Default Work Unit\Play_Ennemies_Replica" MaxAttenuation="5.000000" DurationType="OneShot" DurationMin="0.418792" DurationMax="5.002042">
 					<IncludedMemoryFiles>
 						<File Id="30901348" Language="SFX">
 							<ShortName>LittleGirl_Sing.wav</ShortName>
@@ -66,10 +66,6 @@
 						<File Id="263483579" Language="SFX">
 							<ShortName>LittleGirl_Voice_8.wav</ShortName>
 							<Path>SFX\LittleGirl_Voice_8_10C4C929.wem</Path>
-						</File>
-						<File Id="370459680" Language="SFX">
-							<ShortName>LittleGirl_Sing_9.wav</ShortName>
-							<Path>SFX\LittleGirl_Sing_9_10C4C929.wem</Path>
 						</File>
 						<File Id="494228331" Language="SFX">
 							<ShortName>LittleGirl_Sing_5.wav</ShortName>
@@ -145,6 +141,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3118823156" Name="Play_Hint_door" ObjectPath="\Events\Default Work Unit\Play_Hint_door" DurationType="OneShot" DurationMin="0.486875" DurationMax="0.486875">
+					<IncludedMemoryFiles>
+						<File Id="875816337" Language="SFX">
+							<ShortName>Hint_door.wav</ShortName>
+							<Path>SFX\Hint_door_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3352638585" Name="Play_Light_Bulb_Cracking" ObjectPath="\Events\Default Work Unit\Play_Light_Bulb_Cracking" MaxAttenuation="15.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="316747137" Language="SFX">
@@ -165,7 +169,23 @@
 					<IncludedMemoryFiles>
 						<File Id="989052880" Language="SFX">
 							<ShortName>LullabyCreepy.wav</ShortName>
-							<Path>SFX\LullabyCreepy_2471B63D.wem</Path>
+							<Path>SFX\LullabyCreepy_0A769851.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="98439365" Name="Play_Player_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Player_Footsteps" DurationType="OneShot" DurationMin="0.057867" DurationMax="0.064096">
+					<IncludedMemoryFiles>
+						<File Id="253417778" Language="SFX">
+							<ShortName>Player_footsteps2_1.wav</ShortName>
+							<Path>SFX\Player_footsteps2_1_D59182A0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1691712530" Name="Play_Player_Waves" ObjectPath="\Events\Default Work Unit\Play_Player_Waves" DurationType="OneShot" DurationMin="2.183679" DurationMax="2.183679">
+					<IncludedMemoryFiles>
+						<File Id="791429792" Language="SFX">
+							<ShortName>Bass Drum Impact SFX.wav</ShortName>
+							<Path>SFX\Bass Drum Impact SFX_52D5B7E3.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -221,7 +241,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2929582682" Name="Play_Test_Sine" ObjectPath="\Events\Default Work Unit\Play_Test_Sine" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="43836078" Name="Play_Rewards_green_cube" ObjectPath="\Events\Default Work Unit\Play_Rewards_green_cube" DurationType="OneShot" DurationMin="3.396750" DurationMax="3.396750">
+					<IncludedMemoryFiles>
+						<File Id="58647131" Language="SFX">
+							<ShortName>Rewards_green_cube.wav</ShortName>
+							<Path>SFX\Rewards_green_cube_C407A48E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2929582682" Name="Play_Test_Sine" ObjectPath="\Events\Default Work Unit\Play_Test_Sine" DurationType="OneShot" DurationMin="0.101000" DurationMax="0.101000"/>
+				<Event Id="1915678517" Name="Play_Unlock_Door" ObjectPath="\Events\Default Work Unit\Play_Unlock_Door" DurationType="OneShot" DurationMin="1.861229" DurationMax="1.861229">
+					<IncludedMemoryFiles>
+						<File Id="990572732" Language="SFX">
+							<ShortName>Rewards_red_cube.wav</ShortName>
+							<Path>SFX\Rewards_red_cube_6563AE11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3856631083" Name="Play_Wather_Dorp" ObjectPath="\Events\Default Work Unit\Play_Wather_Dorp" MaxAttenuation="20.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="5734675" Language="SFX">

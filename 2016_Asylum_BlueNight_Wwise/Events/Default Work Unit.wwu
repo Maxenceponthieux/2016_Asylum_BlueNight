@@ -102,9 +102,64 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Ennemies_Replica" ID="{FD487D09-FFA6-441B-907D-C7E31ACE77D8}">
+				<Event Name="Play_Player_Footsteps" ID="{F9B76783-F76F-4D72-BF4F-CC18E74D2293}">
 					<ChildrenList>
-						<Action Name="" ID="{6AF12F94-7CD5-4D39-A6AB-D47B09DE5B83}" ShortID="697643367">
+						<Action Name="" ID="{E7C849AC-73D1-4A54-BAFE-9A27DB7DEAC5}" ShortID="189615742">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Footsteps" ID="{403550C5-9FC4-4632-B634-95845E728D1C}" WorkUnitID="{3CCCC2E1-AE10-4767-8C92-84D388C5CB6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rewards_green_cube" ID="{E1170C6D-EAE5-4609-AC8F-4063BDD5B9F1}">
+					<ChildrenList>
+						<Action Name="" ID="{6A6B66DF-5E47-46B8-B596-363422853E32}" ShortID="1072912544">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rewards_green_cube" ID="{83821B9A-1994-4996-8A91-D4BC26491564}" WorkUnitID="{9297BA68-C4D9-4615-9DF3-C2723B384B73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hint_door" ID="{31CA01B9-4A0C-4361-85DC-2F4BB49723DE}">
+					<ChildrenList>
+						<Action Name="" ID="{4092AB18-BB3C-45B9-8C8F-D9F4999D5FDC}" ShortID="958094276">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hint_door" ID="{FB6E6FD6-ED38-495C-B92C-166FB6B55ED5}" WorkUnitID="{AB4C0DAF-B4DA-4320-A643-14D823DCBC6D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Unlock_Door" ID="{BA6DFB22-D693-4785-B919-ED011616D732}">
+					<ChildrenList>
+						<Action Name="" ID="{3356720B-6884-4F05-A3BC-5CF61EE831DB}" ShortID="331646804">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Unlock_Door" ID="{80BEAFFF-4BA8-4C0A-B862-DDBDED1A02C7}" WorkUnitID="{9297BA68-C4D9-4615-9DF3-C2723B384B73}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Waves" ID="{319019C5-BDED-41B3-95D4-16E57F9F1B72}">
+					<ChildrenList>
+						<Action Name="" ID="{25BA7E6E-FCA5-418E-8DA2-85AF37CA31ED}" ShortID="830728629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Waves" ID="{204D101C-767A-4CCF-94B1-E119CA4063F1}" WorkUnitID="{3CCCC2E1-AE10-4767-8C92-84D388C5CB6F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ennemies_Replica" ID="{0E608A51-A6B5-4227-BF15-99FE9CA67688}">
+					<ChildrenList>
+						<Action Name="" ID="{60E104E0-17D0-403E-95D4-94B4B5C346C2}" ShortID="1001034728">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ennemies_Replica" ID="{836FF6C8-B371-4B77-9E8F-33A0B02C8BCE}" WorkUnitID="{C9BB15C2-8983-4000-8E43-971BF22D0A1C}"/>

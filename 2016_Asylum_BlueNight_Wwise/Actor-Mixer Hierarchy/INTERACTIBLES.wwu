@@ -3,7 +3,47 @@
 	<AudioObjects>
 		<WorkUnit Name="INTERACTIBLES" ID="{AB4C0DAF-B4DA-4320-A643-14D823DCBC6D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Hint_Door" ID="{21B19994-83D4-43BA-847B-403E2A5B8F41}" ShortID="43391049"/>
+				<Folder Name="Hint_Door" ID="{21B19994-83D4-43BA-847B-403E2A5B8F41}" ShortID="43391049">
+					<ChildrenList>
+						<Sound Name="Hint_door" ID="{FB6E6FD6-ED38-495C-B92C-166FB6B55ED5}" ShortID="419102644">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{37EF7A69-CC8A-4406-8B6D-97F9ED750124}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADC5320A-2B8D-4EB6-89B8-191626CD738D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hint_door" ID="{6E35D831-DCBA-4375-B1A4-AFDDC17F2E75}">
+									<Language>SFX</Language>
+									<AudioFile>Hint_door.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="875816337"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Hint_door" ID="{6E35D831-DCBA-4375-B1A4-AFDDC17F2E75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

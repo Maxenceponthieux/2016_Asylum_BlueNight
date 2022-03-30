@@ -17,6 +17,8 @@ public class KeyController : MonoBehaviour {
     {
         transform.DOScale(0, 1.5f).SetEase(Ease.InBack).OnComplete(NotifyPlayer) ;
         GetComponentInChildren<ParticleSystem>().transform.DOScale(0, 1.5f).SetEase(Ease.InBack).OnComplete(NotifyPlayer);
+
+        AkSoundEngine.PostEvent("Play_Rewards_green_cube", gameObject);
     }
 
     void NotifyPlayer()

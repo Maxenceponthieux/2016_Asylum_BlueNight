@@ -80,9 +80,16 @@
 						<Sound Name="LullabyCreepy" ID="{07680477-323D-4774-AF4E-FB06D842722C}" ShortID="1006507376">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9F2E38BF-ECAA-462B-9099-8B5C394E5AED}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-96</Value>
+										<Value>-30</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

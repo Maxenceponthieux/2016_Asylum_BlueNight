@@ -75,6 +75,7 @@ public class BlockController : MonoBehaviour
             toLock.enabled = true;
         else
             door.enabled = true;
+        AkSoundEngine.PostEvent("Play_Unlock_Door", gameObject);
 
         if (fin == false)
             toLock.GetComponentInChildren<CursorController>().enabled = true;

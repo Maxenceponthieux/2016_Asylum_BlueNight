@@ -38,6 +38,8 @@ public class EffectController : MonoBehaviour
         {
             havefoundmonster = false;
 
+            AkSoundEngine.PostEvent("Play_Player_Waves", gameObject);
+
             DOTween.To(() => distance, x => distance = x, maxDistance, duration).OnComplete(OnEffectComplete);
             width = 1f;
             color = Color.red;
@@ -55,6 +57,7 @@ public class EffectController : MonoBehaviour
                         AI monsterAi = hitColliders[i].gameObject.GetComponent<AI>();
                         float dist = Vector3.Distance(hitColliders[i].gameObject.transform.position, transform.position);
                         monsters.Add(new KeyValuePair<AI, float>(monsterAi, dist));
+                       
                     }
                     else
                     {
@@ -80,6 +83,8 @@ public class EffectController : MonoBehaviour
                     {
                         monsters[i].Key.Appear();
                         monsters.Remove(monsters[i]);
+
+                        AkSoundEngine.PostEvent("Play_Ennemies_Replica", gameObject);
                     }
                 }
             }
@@ -108,7 +113,7 @@ public class EffectController : MonoBehaviour
     {
         if (havefoundmonster == false)
         {
-            
+         
         }
 
         effectIsReady = true;

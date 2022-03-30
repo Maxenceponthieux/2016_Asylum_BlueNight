@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{2EBFF174-3628-4462-8248-1887E7CC667D}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Test Sine" ID="{D8C9A8DA-D28C-4B36-8A41-91332D69CB4F}" ShortID="355875894">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{BD677ED7-C98E-4411-91E7-323D9BE8D4CF}"/>
@@ -14,6 +21,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<SourcePlugin Name="Wwise Sine" ID="{A776F29F-98A7-4CC4-AB4A-D9F5DBC766B6}" ShortID="598591888" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+							<PropertyList>
+								<Property Name="SineDuration" Type="Real32" Value="0.101"/>
+							</PropertyList>
 							<Language>SFX</Language>
 						</SourcePlugin>
 					</ChildrenList>

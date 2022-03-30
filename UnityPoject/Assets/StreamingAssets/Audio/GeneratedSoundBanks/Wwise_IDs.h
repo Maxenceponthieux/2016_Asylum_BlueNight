@@ -16,12 +16,17 @@ namespace AK
         static const AkUniqueID PLAY_AMBIANCE_BATHROOM = 120648899U;
         static const AkUniqueID PLAY_AMBIANCEROOM = 133145239U;
         static const AkUniqueID PLAY_ENNEMIES_REPLICA = 3365459787U;
+        static const AkUniqueID PLAY_HINT_DOOR = 3118823156U;
         static const AkUniqueID PLAY_LIGHT_BULB_CRACKING = 3352638585U;
         static const AkUniqueID PLAY_LULLABYCREEPY = 2827608747U;
+        static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
+        static const AkUniqueID PLAY_PLAYER_WAVES = 1691712530U;
         static const AkUniqueID PLAY_PROPS_CHAIR = 467334082U;
         static const AkUniqueID PLAY_PROPS_CLOCK = 1906791523U;
         static const AkUniqueID PLAY_PROPS_VINYLE = 1622683606U;
+        static const AkUniqueID PLAY_REWARDS_GREEN_CUBE = 43836078U;
         static const AkUniqueID PLAY_TEST_SINE = 2929582682U;
+        static const AkUniqueID PLAY_UNLOCK_DOOR = 1915678517U;
         static const AkUniqueID PLAY_WATHER_DORP = 3856631083U;
     } // namespace EVENTS
 

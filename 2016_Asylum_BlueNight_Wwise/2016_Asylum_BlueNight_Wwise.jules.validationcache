@@ -6,7 +6,7 @@
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Switches\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\States\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1647542167" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1648371968" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Queries\Factory Queries.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Queries\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Presets\Factory Spatial Audio.wwu" DateLow="1646749103" DateHigh="0"/>
@@ -19,8 +19,8 @@
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Game Parameters\Factory Motion.wwu" DateLow="1646749103" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Events\Default Work Unit.wwu" DateLow="1647542167" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1647597197" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Events\Default Work Unit.wwu" DateLow="1648475147" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Effects\Factory Reflect.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Effects\Factory McDSP Effects.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Effects\Factory Mastering Suite.wwu" DateLow="1646749103" DateHigh="0"/>
@@ -39,16 +39,18 @@
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1646749103" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Rewards.wwu" DateLow="1647530630" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Player.wwu" DateLow="1647534237" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1647622949" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Rewards.wwu" DateLow="1648472197" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Player.wwu" DateLow="1648475147" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\INTERACTIBLES.wwu" DateLow="1648380843" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Interactible.wwu" DateLow="1647534124" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1647542110" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1647542110" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1647542110" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Ennemy.wwu" DateLow="1647534237" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1647542167" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Ambiances.wwu" DateLow="1647535361" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\ENNEMIES.wwu" DateLow="1648475147" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1648371968" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\Actor-Mixer Hierarchy\Ambiances.wwu" DateLow="1648472197" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\2016_Asylum_BlueNight_Wwise.wproj" DateLow="1647542167" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\2016_Asylum_BlueNight_Wwise.jules.wsettings" DateLow="1647542524" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jules\2016_Asylum_BlueNight\2016_Asylum_BlueNight\2016_Asylum_BlueNight_Wwise\2016_Asylum_BlueNight_Wwise.jules.wsettings" DateLow="1648475147" DateHigh="0"/>
 </ValidationCache>

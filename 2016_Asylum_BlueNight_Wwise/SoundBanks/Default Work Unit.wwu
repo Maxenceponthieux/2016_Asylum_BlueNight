@@ -5,16 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Sine_Bank" ID="{08EC96C5-3CF7-4FFE-A1DB-FBFC41D39868}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Test_Sine" ID="{2BBD1679-D2DB-4085-A29E-9668AC405E0A}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Ennemies_Replica" ID="{FD487D09-FFA6-441B-907D-C7E31ACE77D8}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Props_Chair" ID="{7A584828-792A-4760-BE85-09993FD8A3DD}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Light_Bulb_Cracking" ID="{0727188F-28FE-4B90-8334-287F3E0127C5}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Wather_Dorp" ID="{8E611AAB-DDC0-4BC2-838A-DE2F6D4E4EE1}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Props_Clock" ID="{8760F23B-D0B5-4C65-848E-11650386A2BD}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Props_vinyle" ID="{272D8FB5-2680-4CD2-A85D-5A052BD9B560}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_LullabyCreepy" ID="{A9030167-4AE0-4D8C-9A48-8886421DE0DE}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Ambiance_Bathroom" ID="{BA94B007-5276-4E1B-9CAE-C21D505E07BA}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_AmbianceRoom" ID="{B6081A2E-8E5B-4EF5-8342-9F23DB9DA6FF}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" WorkUnitID="{21780633-D5CF-46DF-AC4B-47097EA5BBA0}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
