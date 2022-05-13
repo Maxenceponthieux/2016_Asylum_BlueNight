@@ -25,7 +25,6 @@ namespace AK
         static const AkUniqueID PLAY_PROPS_CLOCK = 1906791523U;
         static const AkUniqueID PLAY_PROPS_VINYLE = 1622683606U;
         static const AkUniqueID PLAY_REWARDS_GREEN_CUBE = 43836078U;
-        static const AkUniqueID PLAY_TEST_SINE = 2929582682U;
         static const AkUniqueID PLAY_UNLOCK_DOOR = 1915678517U;
         static const AkUniqueID PLAY_WATHER_DORP = 3856631083U;
     } // namespace EVENTS
